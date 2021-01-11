@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/acasa",
+      "handler": "acasa.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/acasa",
+      "handler": "acasa.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/acasa",
+      "handler": "acasa.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
